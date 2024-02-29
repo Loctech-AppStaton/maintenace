@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+#maintenance-page {
+  width: 100%;
+  min-height: 100vh;
+  text-align: center;
+  margin: auto;
+  font: 1em "Open Sans", sans-serif;
+  color: #333;
+  background: #eef2f5;
+}
+#maintenance-page h1 {
+  padding: 40px 0 25px;
+  text-align: center;
+  font: bold 2.5em "Open Sans", sans-serif;
+  color: #084d8b;
+  margin: 0;
+}
+#maintenance-page p {
+  padding: 25px 0px 40px;
+  font-size: 1em;
+}

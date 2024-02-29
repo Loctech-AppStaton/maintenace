@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div id="maintenance-page">
+      <h1 class="nl_open-sans">Site Under Maintenance</h1>
+      <img src="./maintenance.png" />
+      <p>
+        This website is temporarily unavailable due to a planned upgrade.
+        <br />
+        <br />
+        We expect to be finished with maintenance soon
+        <br />
+        <br />
+        We apologize for any inconvenience.
+      </p>
     </div>
   );
 }
